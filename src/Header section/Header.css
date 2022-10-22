@@ -1,0 +1,99 @@
+ .hero {
+   border-bottom: 7px solid #222;
+   width: 100%;
+   height: 110vh;
+   /* padding: 50px; */
+ }
+ .hero .himg img {
+   width: 100%;
+   height: 100vh;
+ 
+   /* transform: none; */
+ }
+ .hero .himg .gradient {
+   background: rgba(0, 0, 0, 0.4);
+   background-image: linear-gradient(
+     0deg,
+     rgba(0, 0, 0, 0.8) 0,
+     transparent 60%,
+     rgba(0, 0, 0, 0.8)
+   );
+   object-fit: cover;
+   position: absolute;
+   bottom: 0%;
+   left: 0;
+   right: 0;
+   top: 0%;
+   width: 100%;
+   height: 100vh;
+ }
+ .hero .content {
+   position: absolute;
+   top: 2%;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 20px;
+   width: 100%;
+   height: 100vh;
+   text-align: center;
+   padding: 0 40px;
+   color: #fff;
+ }
+ .content h1 {
+   font-size: 3rem;
+   max-width: 600px;
+ }
+ .content h2 {
+   font-size: 1.6rem;
+   max-width: 800px;
+   font-weight: 400;
+ }
+ .form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ .form h3 {
+   font-size: 1.2rem;
+   max-width: none;
+   padding-bottom: 20px;
+   /* padding: 0 5%; */
+   font-weight: 400;
+   /* max-width: 800px; */
+ }
+ .content3 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .form .content3 input {
+   height: 55px;
+   width: 460px;
+   /* display: inline; */
+ }
+ .form .content3 div {
+   height: 55px;
+   width: 175px;
+   outline: none;
+   color: #fff;
+   background-color: #e50914;
+   /* border-radius: 3px; */
+ 
+   font-weight: 400;
+   line-height: normal;
+   /* padding: 9px 17px; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+   font-size: 1.2rem;
+ }
+ span {
+   font-size: 1.9rem;
+ }
+ 

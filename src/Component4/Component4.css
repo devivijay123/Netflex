@@ -1,0 +1,40 @@
+.section4{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  border-bottom: 7px solid #222;
+
+}
+.Device_card{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    
+    
+}
+.device_card img{
+    width: 35%;
+    position: absolute;
+  z-index: 9999;
+  top: 30%;
+  left: 53%;
+  
+}
+span{
+    display: block;
+}
+.device_card .Device_video {
+    width: 470px;
+  padding-right: 180px;
+}

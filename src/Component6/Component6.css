@@ -1,0 +1,103 @@
+.section6 {
+  width: 100%;
+  height: 100vh;
+  background-color:  black;
+  border-bottom: 7px solid #222;
+  position: relative;
+}
+.question .plus {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #303030;
+}
+.faq_heading {
+  text-align: center;
+  padding: 30px;
+  
+}
+.faq .item{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+.faq .item .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #303030;
+  flex-direction: column;
+  gap: 10px;
+ 
+  border-radius: 5px;
+  width: 60%;
+  cursor: pointer;
+}
+.faq .item .question {
+  width: 90%;
+  /* height: auto; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding-top: 5px;
+}  
+.faq .item .question p{
+  font-size: 1.3rem;
+}
+.item .answer p{
+  
+  font-size: 1.3rem;
+
+}
+.item .answer {
+  width: 90%;
+  max-height: 0;
+  overflow: hidden;
+}
+
+
+.item .answer.show {
+  height: auto;
+  max-height: 9999999px;
+}
+h3{
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 40px;
+
+  
+}
+ .form1 input{
+  width: 600PX;
+  height: 4rem;
+  border-color: rgb(90, 107, 112);
+  border-bottom: 7px solid #222;
+}
+
+
+.form1{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 87%;
+  left: 20%;
+  gap:  3px;
+
+ 
+}
+.form1 button{
+  background-color: rgb(226,7,18);
+  font-size: 1.5rem;
+  font-weight: 400;
+ width: 200PX;
+ height: 3.7rem;
+ color: white; 
+ border-color: rgb(53, 57, 58);
+
+
+}
